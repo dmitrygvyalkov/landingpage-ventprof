@@ -1,0 +1,9 @@
+{
+  "name": "landingpage-ventprof",
+  "dependencies": {
+    "jquery": "~1",
+    "reset-css": "~2.0.2011012602",
+    "jquery.maskedinput": "~1.4.1",
+    "jquery-validation": "jquery.validate#~1.13.0"
+  }
+}
