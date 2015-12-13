@@ -213,3 +213,96 @@ body {
 	top: -26px;
 	left: -170px;
 }
+
+.block-02 {
+	min-height: 520px;
+}
+
+.h2 {
+	font-size: 42px;
+	color: #102c49;
+	padding: 38px 0 0;
+}
+
+.h2 span {
+	position: relative;
+}
+
+
+
+.h2 span:after {
+	content: '';
+	display: block;
+	width: 110px;
+	height: 2px;
+	background-color: #102c49;
+	position: absolute;
+	top: 29px;
+	right: -115px;
+}
+
+.big-tasks {
+	padding: 86px 0 0 0;
+	counter-reset:li;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.big-tasks .task {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #102c49;
+	padding: 0 0 119px 0;
+	position:relative;
+	z-index: 1000;
+}
+
+.big-tasks .task span {
+	position:absolute;
+	z-index: 1000;
+}
+
+.big-tasks .task:before {
+	content: ".0" counter(li);
+	counter-increment:li;
+	position:absolute;
+	color: #e2f1f4;
+	font-weight: bold;
+	font-size: 125px;
+	left: -5px;
+	top: -47px;
+	z-index: 100;
+}
+
+.tasks {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 630px;
+	height: 336px;
+	background-image: url(../i/bg-tasks.png);
+	padding: 20px 0 0 60px;
+	margin: 47px 0 0; 
+}
+
+.tasks .task {
+	font-family: 'PF Din Display Pro';
+	font-size: 24px;
+	color: #102c49;
+	line-height: 42px;
+	position: relative;
+	padding: 0 0 0 35px;
+}
+
+.tasks .task:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../i/li-task.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
