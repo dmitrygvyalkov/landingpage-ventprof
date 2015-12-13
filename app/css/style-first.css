@@ -1,0 +1,215 @@
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+
+.wrp {
+	width: 940px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'PF Din Text Cond Pro';
+}
+
+.header, .footer {
+	min-height: 106px;
+}
+
+.header .logo, .footer .logo {
+	display: inline-block;
+	vertical-align: top;
+	padding: 18px 0 0;
+	width: 300px;
+}
+
+.header .page-info, .footer .page-info {
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+	text-align: center;
+
+	font-family: 'PF Din Display Pro';
+	font-size: 18px;
+	color: #102c49;
+	padding: 22px 20px 0px 0px;
+}
+
+.header .contacts, .footer .contacts {
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	text-align: right;
+	padding: 10px 0 0 0;
+}
+
+.contacts .phone-title {
+	font-family: 'PF Din Display Pro';
+	font-size: 18px;
+	color: #81c0cb;
+}
+
+.contacts .phone {
+	font-size: 38px;
+	color: #102c49;
+}
+
+.contacts .callback a {
+	font-family: 'PF Din Display Pro';
+	font-size: 20px;
+	color: #97cdd5;
+	text-decoration: none;
+	border-bottom: 1px dashed #97cdd5;
+}
+
+.block-01 {
+	height: 624px;
+	background-image: url(../i/bg-block-01.jpg);
+	background-position: center;
+	position: relative;
+}
+
+.page-title {
+	font-size: 61px;
+	font-weight: bold;
+	color: #102c49;
+	text-transform: uppercase;
+	padding-top: 33px;
+}
+
+.page-title .small {
+	display: block;
+	font-size: 32px;
+}
+
+.buy2day {
+	font-family: 'PF Din Display Pro';
+	font-size: 28px;
+	color: #102c49;
+	padding: 13px 20px 0 0;
+	line-height: 33px; 
+}
+
+.buy2day .disconte-date {
+	font-weight: bold;
+}
+
+.block-form-01 {
+	width: 286px;
+	position: absolute;
+	top: 232px;
+	right: 50%;
+	margin-right: -470px;
+	border: 3px solid #b3b3b3;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	background-image: url(../i/bg-form.png);
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 0px 4px rgba(255,255,255,1);
+	box-shadow: 0px 0px 0px 4px rgba(255,255,255,1), 0px 45px 25px -43px rgba(0,0,0,1);
+}
+
+.form-title {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #102c49;
+	text-align: center;
+	padding: 22px 0 0;
+}
+
+.form-info {
+	text-align: center;
+	font-family: 'PF Din Display Pro';
+	font-size: 18px;
+	padding: 9px 0;
+}
+
+.input {
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-radius: 5px;
+	background-color: rgb(227, 227, 227);
+	border: none;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.75),inset 0px 1px 1px 0px rgba(208, 208, 208, 0.75);
+}
+
+.block-form .input-name, .block-form .input-phone {
+	padding: 14px 15px;
+}
+
+.block-form .input-submit {
+	padding: 5px 15px 15px;
+}
+
+.block-form .input-phone {
+	padding-top: 5px;
+}
+
+.btn {
+	width: 100%;
+	height: 51px;
+	box-sizing: border-box;
+	background: rgba(255,223,143,1);
+	color: rgb(250, 250, 242);
+	font-weight: bold;
+	font-size: 28px;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	border: none;
+ 	border-radius: 8px;
+ 	line-height: 55px;
+ 	font-family: 'PF Din Text Cond Pro';
+ 	text-shadow: -0.819px -0.574px 0px rgba(154, 46, 0, 0.75);
+	background: -moz-linear-gradient(top, rgba(255,223,143,1) 0%, rgba(247,124,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,223,143,1)), color-stop(100%, rgba(247,124,0,1)));
+	background: -webkit-linear-gradient(top, rgba(255,223,143,1) 0%, rgba(247,124,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,223,143,1) 0%, rgba(247,124,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,223,143,1) 0%, rgba(247,124,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,223,143,1) 0%, rgba(247,124,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf8f', endColorstr='#f77c00', GradientType=0 );
+	-webkit-box-shadow: 0px 3px 1px -1px rgba(187,69,0,1),inset 0px -2px 0px 0px rgba(250,133,0,1),0px 0px 4px 2px rgba(224,223,222,1);
+	-moz-box-shadow: 0px 3px 1px -1px rgba(187,69,0,1),inset 0px -2px 0px 0px rgba(250,133,0,1),0px 0px 4px 2px rgba(224,223,222,1);
+	box-shadow: 0px 3px 1px -1px rgba(187,69,0,1),inset 0px -2px 0px 0px rgba(250,133,0,1),0px 0px 4px 2px rgba(224,223,222,1);
+	transition: 1s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	text-shadow: -0.819px -0.574px 0px rgba(154, 46, 0, 0.3);
+	background: -moz-linear-gradient(top, rgba(247,124,0,1) 0%, rgba(255,223,143,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,124,0,1)), color-stop(100%, rgba(255,223,143,1)));
+	background: -webkit-linear-gradient(top, rgba(247,124,0,1) 0%, rgba(255,223,143,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,124,0,1) 0%, rgba(255,223,143,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,124,0,1) 0%, rgba(255,223,143,1) 100%);
+	background: linear-gradient(to bottom, rgba(247,124,0,1) 0%, rgba(255,223,143,1) 100%);
+}
+
+.block-form .confidential {
+	padding: 3px 0 20px;
+	text-align: center;
+}
+
+.block-form .confidential a {
+	color: #c9c9c3;
+	font-size: 16px;
+	font-family: 'PF Din Display Pro';
+}
+
+.block-form:before {
+	content: '';
+	display: block;
+	width: 145px;
+	height: 100px;
+	background-image: url(../i/arrow.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -26px;
+	left: -170px;
+}
