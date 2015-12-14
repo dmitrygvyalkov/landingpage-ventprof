@@ -297,3 +297,69 @@
 .block-form-03 .btn {
 	font-size: 18px;
 }
+
+.block-07 {
+	height: 192px;
+	background-color: #f8f9f9;
+	-webkit-box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
+	-moz-box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
+	box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
+}
+
+.about {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 10px 40px;
+}
+
+.about:after {
+	content: '';
+	width: 1px;
+	height: 70px;
+	background-color: #5a8d94;
+	position: absolute;
+	top: 22px;
+	right: 0;
+}
+
+.about .text {
+	font-size: 90px;
+	font-family: "Bebas Neue";
+	color: rgb(150, 191, 196);
+	font-weight: bold;
+	text-shadow: 1px 3px 0px rgba(90, 141, 148, 0.8);
+	
+}
+
+.work-date .text:before {
+	content: "с";
+	display: inline-block;
+	font-size: 48px;
+	padding-right: 10px;
+}
+
+.about .title {
+	position: absolute;
+	top: 20px;
+	right: 38px;
+	color: #010203;
+	font-size: 20px;
+}
+
+
+.work-date {
+	width: 250px;
+}
+
+.objects-num {
+	width: 200px;
+}
+
+.co-workers {
+	width: 175px;
+}
+
+.co-workers:after {
+	display: none;
+}
