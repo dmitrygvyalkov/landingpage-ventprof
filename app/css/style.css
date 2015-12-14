@@ -304,6 +304,10 @@
 	-webkit-box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
 	-moz-box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
 	box-shadow: 0px 0px 60px 15px rgba(156,173,179,1);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
 .about {
@@ -362,4 +366,69 @@
 
 .co-workers:after {
 	display: none;
+}
+
+
+
+.block-08 {
+	background-color: #f7fbfc;
+	height: 350px;
+	border-bottom: 1px solid #ebeff0;
+}
+
+.h3 {
+	font-size: 40px;
+	color: #080f27;
+	padding: 75px 0 0;
+}
+
+.slider-wrapper {
+	margin-top: 50px;
+	position: relative;
+	width: 960px;
+	height: 120px;
+}
+
+.partners-list {
+	width: 960px;
+	height: 120px;
+	overflow: hidden;
+	border: 2px solid #e0e9eb;
+	border-radius: 8px;
+	line-height: 100px;
+	padding: 25px 40px 0;
+	box-sizing: border-box;
+}
+
+
+.slider-wrapper .partners-list {
+
+}
+
+.slider-wrapper .partners-list .partners {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 20px;
+}
+
+.slider-btn {
+	width: 28px;
+	height: 44px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 35px;
+	z-index: 100;
+}
+
+.left-btn {
+	display: block;
+	background-image: url(../i/to-left.png);
+	left: -11px;
+}
+
+.right-btn {
+	display: block;
+	background-image: url(../i/to-right.png);
+	right: -11px;
+
 }
