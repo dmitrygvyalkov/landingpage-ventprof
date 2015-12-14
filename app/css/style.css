@@ -84,7 +84,7 @@
 }
 
 .block-form-02 .block-form .input-name , .block-form-02 .block-form .input-phone{
-	padding: 14px 0;
+	padding: 7px 0;
 }
 
 .block-form-02 .block-form .input-submit {
@@ -96,6 +96,11 @@
 	background-image: none;
 }
 
+.block-form-02 .confidential a {
+	color: #2a222e;
+
+}
+
 .block-form-02 .block-form .input {
 	background-color: #f5f8fa;
 	border: 2px solid #a5acb5;
@@ -105,4 +110,126 @@
 
 .block-form-02 .btn {
 	font-size: 18px;
+}
+
+.block-05 {
+	background-color: #f7fbfc;
+}
+
+.equipments {
+	padding: 40px 0;
+}
+
+.equipments .equipmens-element {
+	display: inline-block;
+	vertical-align: top;
+	width: 221px;
+	padding: 0 20px 20px 0;
+	margin-left: -5px;
+}
+
+.equipments .equipmens-element:nth-child(4n) {
+	padding-right: 0;	
+}
+
+
+.equipments .equipmens-element .equipment-image {
+	height: 162px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-repeat: no-repeat;
+ 	background-position: center 14px;
+}
+
+.equipments .equipment-image img {
+	display: inline-block;
+	border-radius: 5px;
+	padding: 3px 0 0;
+}
+
+ .equipments .equipmens-element  .equipment-01 {
+ 	background-image: url(../i/equipment/e01.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-02 {
+ 	background-image: url(../i/equipment/e02.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-03 {
+ 	background-image: url(../i/equipment/e03.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-04 {
+ 	background-image: url(../i/equipment/e04.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-05 {
+ 	background-image: url(../i/equipment/e05.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-06 {
+ 	background-image: url(../i/equipment/e06.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-07 {
+ 	background-image: url(../i/equipment/e07.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-08 {
+ 	background-image: url(../i/equipment/e08.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-09 {
+ 	background-image: url(../i/equipment/e09.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-10 {
+ 	background-image: url(../i/equipment/e10.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-11 {
+ 	background-image: url(../i/equipment/e11.jpg);
+ }
+
+  .equipments .equipmens-element  .equipment-12 {
+ 	background-image: url(../i/equipment/e12.jpg);
+ }
+
+ .equipments .equipment-title {
+	color: #307fb3;
+	font-size: 21px;
+	padding: 3px 0 0 8px;
+ }
+
+ .equipments .equipment-title-small {
+ 	font-size: 18px;
+ }
+
+.equipments .equipment {
+	padding: 10px 0;
+}
+
+.equipments .equipment .equipment-name {
+	color: #080f27;
+	font-size: 18px;
+	line-height: 27px;
+	position: relative;
+	padding-left: 25px;
+}
+
+.equipments .equipment .equipment-name:before {
+	content: '';
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-image: url(../i/li-object.png);
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.equipments .equipment-description {
+	font-size: 18px;
+	color: #080f27;
+	padding: 15px 0 0 10px;
 }
